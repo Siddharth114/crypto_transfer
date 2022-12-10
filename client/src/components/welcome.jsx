@@ -1,7 +1,7 @@
-const welcome = () => {
+const Welcome = () => {
     return (
         <h1>welcome</h1>
     )
 }
 
-export default welcome;
+export default Welcome;
