@@ -1,4 +1,4 @@
-import { Navbar, Welcome, Footer, Services, Transactions } from './components';
+import { Navbar, Welcome, Footer, Services, Transactions } from "./components";
 
 function App() {
   return (
@@ -9,9 +9,9 @@ function App() {
       </div>
       <Services />
       <Transactions />
-      <footer />
+      <Footer />
     </div>
   );
 }
 
-export default App
+export default App;
