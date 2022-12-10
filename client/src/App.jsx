@@ -1,12 +1,14 @@
-const App = () => {
+import { Navbar, welcome, footer, services, transactions } from './components';
 
+function App() {
   return (
-    <div className="App">
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div className="min-h-screen">
+      <div className="gradient-bg-welcome">
+        <Navbar />
+
+      </div>
     </div>
-  )
+  );
 }
 
 export default App
